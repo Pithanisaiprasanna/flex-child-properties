@@ -1,0 +1,30 @@
+.container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.image-container {
+  width: 23%;
+  margin: 1%;
+  float: left;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  
+}
+
+.image-container p {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: black;
+  color: white;
+  padding: 4px 8px;
+  font-size: 14px;
+}
